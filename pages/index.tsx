@@ -1,8 +1,9 @@
 import React from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Heading } from '@chakra-ui/react';
 import styles from '@/styles/Home.module.css';
+import Footer from '@/components/structural/Footer';
+import Heading from '@/components/typography/Heading';
 
 const Home: NextPage = function Home() {
   return (
@@ -14,14 +15,10 @@ const Home: NextPage = function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Heading as="h1" size="4xl" mb="4">
-          Hello World!
-        </Heading>
+        <Heading>Hello</Heading>
       </main>
 
-      <footer className={styles.footer}>
-        Hello Footer Text
-      </footer>
+      <Footer />
     </div>
   );
 };
