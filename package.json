@@ -1,6 +1,13 @@
 {
   "name": "digital-defense",
-  "private": true,
+  "description": "The Ultimate Privacy & Security Guide",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Alicia Sykes",
+    "email": "alicia@omg.lol",
+    "url": "http://aliciasykes.com/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -29,5 +36,17 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "typescript": "4.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lissy93/digital-defense.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lissy93/digital-defense/issues",
+    "email": "report-bug@mail.alicia.omg.lol"
+  },
+  "funding": [
+    { "type": "github", "url": "https://github.com/sponsors/Lissy93" },
+    { "type": "individual", "url": "https://notes.aliciasykes.com/tip" }
+  ]
 }
